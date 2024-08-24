@@ -1,9 +1,16 @@
-import HomeContainer from './containers/HomeContainer'
 import './App.css';
+import Navbar from './Navbar';
+import Shop from './Shop';
 
 function App() {
   return (
-     <HomeContainer/>
+    <>
+      
+      <Navbar/>
+    <div className="container">
+      <Shop/>
+    </div>
+    </>
   );
 }
 
